@@ -1,0 +1,61 @@
+src/
+├── app.ts
+├── server.ts
+│
+├── config/
+│   ├── env.ts
+│   ├── prisma.ts
+│   └── jwt.ts
+├── db/
+|   └── prisma/
+|
+|
+├── shared/
+│   ├── errors/
+│   ├── middleware/
+│   ├── utils/
+│   └── types/
+│
+├── modules/
+│   ├── auth/
+│   │   ├── auth.routes.ts
+│   │   ├── auth.controller.ts
+│   │   ├── auth.service.ts
+│   │   ├── auth.repository.ts
+│   │   └── auth.schema.ts
+│   │
+│   ├── users/
+│   │   ├── users.routes.ts
+│   │   ├── users.controller.ts
+│   │   ├── users.service.ts
+│   │   ├── users.repository.ts
+│   │   └── users.schema.ts
+│   │
+│   ├── profiles/
+│   │   ├── profiles.routes.ts
+│   │   ├── profiles.controller.ts
+│   │   ├── profiles.service.ts
+│   │   ├── profiles.repository.ts
+│   │   └── profiles.schema.ts
+│   │
+│   ├── friendships/
+│   │   ├── friendships.routes.ts
+│   │   ├── friendships.controller.ts
+│   │   ├── friendships.service.ts
+│   │   ├── friendships.repository.ts
+│   │   └── friendships.schema.ts
+│   │
+│   ├── posts/
+│   │   ├── posts.routes.ts
+│   │   ├── posts.controller.ts
+│   │   ├── posts.service.ts
+│   │   ├── posts.repository.ts
+│   │   └── posts.schema.ts
+│   │
+│   ├── comments/
+│   ├── likes/
+│   ├── feed/
+│   └── media/
+│
+|    
+└── generated/
